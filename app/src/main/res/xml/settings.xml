@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+            app:key="isAutoHotspot"
+            app:title="自动开启热点"
+            app:icon="@mipmap/ic_hotspot"
+    />
+
+    <EditTextPreference
+            app:key="deviceName"
+            app:title="蓝牙设备名"
+            app:icon="@mipmap/ic_bluetooth"
+            app:summary="当监听到该设备连接状态变更时，自动开闭热点"/>
+
+</PreferenceScreen>
